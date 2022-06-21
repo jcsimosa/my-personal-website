@@ -1,3 +1,31 @@
 body {
-    background : Blue
+    background : white
+}
+.imagenes {
+    border-top-right-radius: 10%;
+    padding-right: 10px;
+    width: 23.5%;
+    height: 130px; 
+    object-fit: cover;
+}
+.maintitle {
+    background-image: url(images/hawaii-beach_16x9.webp);
+    background-color: #cccccc;
+    background-size: 100%;
+}
+h1 {
+    text-align: center;
+    padding: 200px;
+}
+.imagerow {
+    width: 100%;
+    padding-left: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.options {
+    cursor: pointer;
 }
